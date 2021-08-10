@@ -1,0 +1,189 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #000000 url('../images/bg.png') no-repeat center top;
+}
+#container
+{
+    background-color: #FFFFFF;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    height:200px;
+}
+/* menubar */
+
+#menubar {
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    background: url('../images/menubar_background.png') left top;
+    background-repeat: repeat-x;
+}
+
+#menubar ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menubar li {
+    float: left;
+    height: 50px;
+    background: url('../images/menu_divide.png') right top;
+    background-repeat: repeat-y;
+}
+
+#menubar a {
+    display: block;
+    float: left;
+    height: 35px;
+    margin-right: 3px;
+    padding: 15px 30px 0px 30px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    border: none;
+}
+
+#menubar li.currentpage {
+}
+
+#menubar .currentpage a {
+    background: url('../images/menu_hover.png') left top;
+    background-repeat: repeat-x;
+}
+#menubar a:hover {
+    text-decoration: none;
+    background: url('../images/menu_hover.png') left top;
+    background-repeat: repeat-x;
+}
+/* End menubar */
+/*content*/
+#contentwrapper
+{
+   min-height:350px;
+   font-family: Verdana;
+   font-size: 12px;
+}
+#contenthome
+{
+    padding-left:10px;
+    padding-top:15px;
+}
+#contentlefttop
+{
+    float:left;
+    clear:right;
+    width:650px;
+    
+}
+#contentrighttop
+{
+    float:right;
+    padding-right:20px;
+}
+/*content*/
+/*content Gallery*/
+#gallery
+{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:40px;
+}
+.gallerylinks
+{
+    color:Green;
+    text-decoration:none;
+}
+/*End Gallery*/
+
+/*content contactus*/
+#contentwrappercontactus
+{ 
+    margin-top:10px;
+    background-image: url('../images/contact-faux.png');
+    background-repeat: repeat;
+    min-height:500px;
+    font-family: Verdana;
+    font-size: 12px;
+    width:100%;
+   
+}
+#contactusmail
+{
+    height:100%;
+    margin-top:30px;
+    padding-left:20px;
+    width:400px;
+    clear:right;
+    float:left;
+}
+#contactusmap
+{
+    padding-left:20px;
+    height:100%;
+    margin-top:30px;
+    width:390px;
+    float:right;
+}
+.contactushead
+{
+    color: #336600;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: verdana;
+}
+.contactusfileds
+{
+    background-color:#f3f3f3;
+    border-width: 1px;
+    border-style: solid;
+    width:350px;
+}
+.redstar
+{
+    color:Red;
+    vertical-align:top;
+}
+
+/*End contactus*/
+#footer
+{
+    background-color: #00ffff;
+    height: 40px;
+    font-family: Verdana;
+    font-size: 12px;
+    bottom: 0px;
+    background-image: url('../images/menubar_background.png');
+    background-repeat: repeat;
+    
+}
+#footerleft
+{
+   margin-top:20px;
+    height:20px;
+    color:#ffffff;
+    text-align:left;
+    clear:left;
+    float:left;
+}
+#footerright
+{
+    margin-top:20px; 
+    height:20px;
+    color:#ffffff;
+    text-align:right;
+    float:right;
+    
+
+}
